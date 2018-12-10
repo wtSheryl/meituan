@@ -1,0 +1,30 @@
+.discounts_container {
+	padding: 30px 0 0 0;
+}
+.discounts_container .ant-card {
+	border-radius: 5px;
+}
+.discounts_container .ant-card-head {
+	border-radius: 5px 5px 0px 0px;
+	background-color: #FE6047;
+} 
+.discounts_container .ant-tabs-tab, .discounts_container .ant-tabs-tab:hover{
+	color: #FFF;
+	font-size: 14px;
+	padding: 16px 0px;
+	margin-right: 15px;
+}
+.discounts_container .ant-card-head-title {
+	color: #FFF;
+	font-weight: 700;
+	font-size: 18px;
+	position: absolute;
+	padding: 11px 0px;
+}
+.discounts_container .ant-tabs-nav {
+	margin-left: 80px;
+}
+.discounts_container .ant-tabs-ink-bar {
+	background-color: #fe3808;
+	height: 4px;
+}

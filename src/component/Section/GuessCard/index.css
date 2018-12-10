@@ -1,0 +1,30 @@
+.guess_container {
+	padding: 30px 0 0 0;
+}
+.guess_container .ant-card {
+	border-radius: 5px;
+}
+.guess_container .ant-card-head {
+	border-radius: 5px 5px 0px 0px;
+	background-color: #11CDC9;
+} 
+.guess_container .ant-tabs-tab, .guess_container .ant-tabs-tab:hover{
+	color: #FFF;
+	font-size: 14px;
+	padding: 16px 0px;
+	margin-right: 15px;
+}
+.guess_container .ant-card-head-title {
+	color: #FFF;
+	font-weight: 700;
+	font-size: 18px;
+	position: absolute;
+	padding: 11px 0px;
+}
+.guess_container .ant-tabs-nav {
+	margin-left: 80px;
+}
+.guess_container .ant-tabs-ink-bar {
+	background-color: #01bab6;
+	height: 4px;
+}

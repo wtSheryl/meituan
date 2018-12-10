@@ -1,0 +1,27 @@
+.ant-rate {
+	color: #FF9900;
+}
+.ant-rate-disabled .ant-rate-star {
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 3px;
+}
+.ant-rate-text {
+	font-size: 10px;
+	color: #999999;
+}
+.guess_detail_price p {
+	color: #999999;
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+.guess_detail_price .desc {
+	font-weight: 600;
+	color: #FE6800;
+	font-size: 12px;
+}
+.guess_detail_price .price {
+	font-size: 18px;
+	font-weight: 700;
+	color: #FE6800;
+}

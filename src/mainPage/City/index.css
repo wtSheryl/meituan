@@ -1,0 +1,135 @@
+.city_page {
+	height: auto;
+	background-color: #fff;
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 20px;
+}
+.city_province {
+	height: 70px;
+	border-bottom: 1px solid #E5E5E5;
+	padding: 8px 0px;
+}
+.city_province span {
+	margin-right: 20px;
+	font-size: 16px;
+}
+.down_choose {
+	font-size: 12px;
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	-o-transform: scale(0.7);
+	transform: scale(0.7);
+}
+.province_button {
+	width: 150px;
+	height: 40px;
+	padding: 0px 10px;
+	background-color: #fff;
+	border-radius: 4px;
+	border: 1px solid #E5E5E5;
+	margin-right: 20px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.wrapper_province {
+	display: flex;
+	-webkit-display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.city_search {
+	margin-left: 40px;
+}
+.city_province input {
+	width: 300px;
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid #E5E5E5;	
+	padding: 0px 10px;
+}
+.city_province input::-webkit-input-placeholder { /* WebKit browsers */  
+  color: rgba(51,51,51,.5);  
+}  
+.city_province input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */  
+  color: rgba(51,51,51,.5);  
+}  
+.city_province input::-moz-placeholder { /* Mozilla Firefox 19+ */  
+  color: rgba(51,51,51,.5);  
+}  
+.city_province input:-ms-input-placeholder { /* Internet Explorer 10+ */  
+  color: rgba(51,51,51,.5);  
+} 
+.city_hotcity {
+	height: 70px;
+	line-height: 55px;
+	border-bottom: 1px solid #E5E5E5;
+	padding: 8px 0px;	
+}
+.city_hotcity span:first-child {
+	font-size: 16px;
+	cursor: text;
+}
+.city_hotcity span {
+	margin-right: 30px;
+	cursor: pointer;
+}
+.capital_province {
+	height: 70px;
+	padding: 22px 0px;
+}
+.capital_province span {
+	margin-right: 20px;
+	font-size: 16px;
+}
+.anchor_container {
+	display: inline-flex;
+	-webkit-display: inline-flex;
+	justify-content: space-around;
+	font-size: 14px;
+	width: 75%;
+}
+.alphabet_select {
+	width: 90%;	
+}
+.alphabet_select .ant-anchor-link {
+	float: left;
+	margin-left: 10px;
+	height: 24px;
+	font-size: 16px;
+}
+.capital_city {
+	padding: 20px 10px;
+	display: flex;
+	-webkit-display: flex;
+	justify-content: space-between;
+}
+.capital_city:hover {
+	background-color: #F8F8F8;
+}
+.alphabet_remark {
+	height: 45px;
+	width: 45px;
+	border-radius: 100%;
+	background-color: #13D1BE;
+	color: #FFF;
+	line-height: 43px;
+	text-align: center;
+}
+.alphabet_city {
+	width: 93%;
+}
+.alphabet_city li {
+	list-style: none;
+	float: left;
+	height: 40px;
+	margin-right: 40px;
+}
+.alphabet_city li a {
+	color: #666;
+}
+.alphabet_city li a:hover {
+	color: #13D1BE;
+}

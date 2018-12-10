@@ -1,0 +1,98 @@
+.mainShadow {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 4;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(51,51,51,.5);
+}
+.shadow_content {
+	width: 706px;
+	height: 516px;
+	margin: 150px auto;
+	background-color: #FFF;
+}
+.shadow_close {
+	position: relative;
+	left: 697px;
+	top: -13px;
+	font-size: 24px;
+	color: #999;
+	background-color: #FFF;
+	border: 2px solid #FFF;
+	border-radius: 100%;
+}
+.shadow_close:hover {
+	color: #FB5900;
+}
+.devices_wrapper {
+	width: 100%;
+	height: 39%;
+	display: flex;
+	-webkit-display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+.device_container {
+	width: 72px;
+	height: 138px;
+}
+.devices_wrapper div:not(:first-child) {
+	margin-left: 80px;
+}
+.downloads_wrapper {
+	height: 61%;
+	background-color: #F6F5F2;
+	display: flex;
+	-webkit-display: flex;
+}
+.downloads_wrapper_left {
+	height: 100%;
+	width: 40%;
+	padding: 30px 20px 20px 84px;
+	text-align: center;
+}
+.downloads_wrapper_left p {
+	color: #999;
+	font-size: 14px;
+	padding-top: 20px;
+}
+.downloads_left_qrcode {
+	height: 212px;
+	width: 176px;
+	padding: 41px 23px;
+	background-color: #FFF;
+	border: 1px solid #e5e5e5;
+}
+.downloads_wrapper_right {
+	height: 100%;
+	width: 60%;
+}
+.downloads_right_area {
+	width: 80%;
+	height: 100%;
+	padding-left: 20px; 
+}
+.downloads_right_area i {
+	font-size: 22px;
+	padding: 0px 10px;
+}
+.downloads_right_area p {
+	margin-top: 30px;
+	font-size: 14px;
+	color: #999;
+}
+.downloads_button {
+	height: 46px;
+	line-height: 49px;
+	padding-right: 10px;
+	min-width: 140px;
+	background-color: #FF9000;
+	border: 1px solid #FF9000;
+	border-radius: 4px;
+	color: #FFF;
+}
+.ant-divider-dashed {
+	border-top: 1px dashed #D6D1CB;
+}

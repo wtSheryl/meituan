@@ -1,0 +1,10 @@
+.banner_carousel,.banner_carousel img {
+	width: 550px;
+	height: 240px;
+}
+
+.ant-carousel .slick-slide {
+  width: 550px;
+  height: 240px;
+  overflow: hidden;
+}

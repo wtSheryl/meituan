@@ -1,0 +1,232 @@
+.section_container {
+  width: 100%;
+  padding: 197px 0 36px 0;
+  background-color: #F8F8F8;
+  min-height: 100%;
+}
+.section_main {
+  margin: 0 auto;
+  width: 1190px;
+}
+.section_banner {
+	height: 427px;
+	width: 100%;
+}
+.left_banner {
+	height: 467px;
+	width: 230px;
+	background: linear-gradient(rgba(2,181,157,.8),rgba(22,146,183,.8));
+	position: absolute;
+	margin-top: -40px;
+}
+.left_banner h3 {
+	height: 40px;
+	line-height: 50px;
+	font-size: 16px;
+	color: #FFF;
+	margin: 0px 0px 0px 14px;
+}
+.left_banner .categories {
+	height: 417px;
+	margin-top: 10px;
+	color: #FFF;
+}
+.categories ul {
+	height: inherit;
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.categories ul li {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 6px;
+	font-size: 8px;
+	color: rgba(255,255,255,.75)
+}
+.categories ul li:hover {
+	background-color: rgba(255,255,255,.2);
+}
+.categories ul li:hover i{
+	color: #FFF;
+}
+.categories span {
+	color: #FFF;
+	font-Size: 14px;
+}
+.categories span i {
+	font-Size: 16px;
+	color: rgba(255,255,255,.2);
+	padding: 6px 10px;
+	font-weight: 700;
+}
+
+.categories_detail_wrapper {
+	position: absolute;
+	background-color: rgba(255,255,255,.95);
+    height: 416px;
+    width: 400px;
+    margin-left: 230px;
+    margin-top: -416px;
+    z-index: 1;
+    padding: 10px 30px;
+    overflow: hidden;
+}
+
+.categories_title_wrapper {
+	color: #999;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #e5e5e5;
+	height: 40px;
+	margin-bottom: 5px;
+} 
+.categories_title_wrapper h2 {
+	color: #222;
+	font-size: 16px;
+	margin-bottom: 0px;
+}
+.categories_title_wrapper a, .categories_title_wrapper a:hover{
+	color: #222;
+}
+
+.categories_content_wrapper ul li{
+	list-style: none;
+	float: left;
+	font-size: 12px;
+	padding-right: 15px;
+	padding-bottom: 8px;
+	cursor: pointer;
+}
+.categories_content_wrapper a {
+	color: #999
+}
+.categories_content_wrapper a:hover {
+	color: #13D1BE;
+}
+.right_banner {
+	width: 960px;
+	height: inherit;
+	position: absolute;
+	margin-left: 230px; 
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.banner_top_row {
+	width: 100%;
+	height: 240px;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+}
+.banner_leision, .banner_leision img {
+	width: 150px;
+	height: 100%;
+}
+.banner_login {
+	width: 230px;
+	height: 100%;
+	border: 1px solid #E5E5E5;
+	background-color: #FFF;
+	text-align: center;
+}
+.banner_avatar {
+	padding: 25px 0px 2px 0px;
+}
+.banner_login img {
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+}
+.banner_button {
+	height: 60px;
+	padding: 10px;
+}
+.banner_button button {
+	width: 120px;
+	height: 40px;
+	font-size: 14px;
+	color: #333333;
+	border: 1px solid #E5E5E5;
+	background-color: #FFF;
+	border-radius: 40px;
+}
+.banner_button button:hover {
+	background-color: #F6F6F6;
+}
+.banner_bottom_row {
+	width: 100%;
+	height: 165px;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+}
+.banner_hotel_study, .banner_hotel_study img {
+	width: 270px;
+}
+.banner_business, .banner_business img {
+	width: 150px;
+}
+.banner_qrcode {
+	width: 230px;
+	height: inherit;
+	border: 1px solid #E5E5E5;
+	background-color: #FFF;
+	text-align: center;
+	padding: 10px;
+}
+.banner_qrcode img {
+	width: 95px;
+}
+.banner_qrcode h3 {
+	font-size: 16px;
+	margin-top: 10px;
+}
+.banner_qrcode p {
+	margin-top: -10px;
+	font-size: 10px;
+}
+.banner_qrcode span {
+	color: #EC5330;
+}
+
+.scenes_container {
+
+}
+.quality_container {
+	padding: 30px 0 0 0;
+}
+.quality_container .ant-card {
+	border-radius: 5px;
+}
+.quality_container .ant-card-head {
+	border-radius: 5px 5px 0px 0px;
+	background-color: #C1AC84;
+} 
+.quality_container .ant-tabs-tab, .quality_container .ant-tabs-tab:hover{
+	color: #FFF;
+	font-size: 14px;
+	padding: 16px 0px;
+	margin-right: 15px;
+}
+.quality_container .ant-card-head-title {
+	color: #FFF;
+	font-weight: 700;
+	font-size: 18px;
+	position: absolute;
+	padding: 11px 0px;
+}
+.quality_container .ant-tabs-nav {
+	margin-left: 80px;
+}
+.quality_container .ant-tabs-ink-bar {
+	background-color: #a6935a;
+	height: 4px;
+}

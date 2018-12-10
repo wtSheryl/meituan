@@ -1,0 +1,60 @@
+.movie_first_panel .ant-carousel .slick-slide {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 297px;
+}
+.movie_first_panel .ant-carousel .slick-dots {
+	position: absolute;
+	margin-bottom: -22px;
+}
+
+.movie_first_panel .ant-carousel .slick-dots li button {
+	background-color: #FF4949;
+}
+
+.movie_detail_container img{
+	border-radius: 6px;
+	position: relative;
+	z-index: -1;
+}
+.movie_info {
+	background: linear-gradient(to top, rgba(0,0,0,0.65), rgba(0,0,0,0));
+	height: 120px;
+	margin-top: -120px;
+	padding-top: 120px;
+}
+.movie_info p {
+	color: #FFF;
+	font-size: 12px;
+	font-weight: 700;
+	margin: -55px 0 0 0;
+	padding-left: 10px;
+}
+.movie_info p span {
+	color: #FD9827;
+	font-size: 16px;
+	font-weight: 100;
+}
+.movie_info .movie_info_name {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+}
+.movie_info_name em {
+	color: #FFF;
+	font-size: 16px;
+	padding-left: 10px;
+	font-style: normal;
+}
+.movie_info_name span {
+	color: #FFF;
+	font-size: 14px;
+	background-color: #FF4949;
+	border-radius: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+	display: inline-block;
+}
