@@ -3,12 +3,11 @@
 	import {getAreaList} from '../../api/area.js';
 	import { Icon, Cascader, AutoComplete } from 'antd';
 	import './index.css';
-	import { content,alphabet_map,capital_map,cityOptions} from './index.jsx';
+	import { content,alphabet_map,cityOptions} from './index.jsx';
 
 	export default class City extends Component {
 	  state = {
 	    visible: false,
-	    capital:[].concat.apply([],capital_map),
 	    hotcity: [],
 	    capitalCity: []
 	  }
@@ -46,7 +45,7 @@
 
 	  onChange = (value, selectedOptions) => {
 		  console.log(value, selectedOptions);
-		  console.log(this.state.capitalCity);
+
 	}
 
 	filter = (inputValue, path) =>{
@@ -103,7 +102,6 @@
 
 								{
 									this.state.capitalCity.map(function(data){
-										console.log("mapData="+data.city)
 										return (
 											<div key={data.location} id={data.location} className="capital_city">
 												<div className="alphabet_remark">{data.title}</div>

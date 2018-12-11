@@ -15,6 +15,7 @@ class Header extends Component {
 	state = {
 		visible: false,
 		confirmLoading: false,
+		location:"北京"
 	}
 
 	showModal = () => {
@@ -48,7 +49,7 @@ class Header extends Component {
 	            <div className="header_bar_flex">
 	              <div className="header_bar_left">
 	                  <span className="header_location">
-	                    <Icon type="environment-o"/>北京<span><a href="/City">切换城市</a></span>
+	                    <Icon type="environment-o"/>{this.state.location}<span><a href="/City">切换城市</a></span>
 	                  </span>
 	                  <span className="guess_city">
 	                  [<a>大厂回族自治县</a><a>廊坊</a><a>三河</a>]
