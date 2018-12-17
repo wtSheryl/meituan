@@ -24,7 +24,7 @@ json-server | Node模块 | [https://www.npmjs.com/package/json-server](https://w
 node_modules --node模块
 public
 ├── index.html -- 主页面
-└── manifest.json -- 移动端配置文件
+└── manifest.json -- 配置文件，代码执行源头
 src -- 源码目录
 ├── api -- axios网络请求定义
 ├── components -- 通用组件封装
